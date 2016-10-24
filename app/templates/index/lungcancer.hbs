@@ -1,0 +1,48 @@
+<div class="lungcancer_main">
+  {{!-- <table>
+    <thead>
+      <tr><th>Lung Cancer</th></tr>
+    </thead>
+    <thead>
+      <tr><th class="site_name">Patient ID</th><th>Has Disease</th><th>Source1</th><th>Source2</th><th>Source3</th></tr>
+      </thead>
+      <tbody>
+    </tbody>
+
+  </table> --}}
+
+  <table class="highlight">
+    <thead class="table_title">
+      <h4>Lung Cancer</h4>
+    </thead>
+       <thead>
+         <tr>
+             <th data-field="id">Patient ID</th>
+             <th data-field="name">Has Disease</th>
+             <th data-field="price">Source 1</th>
+             <th data-field="price">Source 2</th>
+             <th data-field="price">Source 3</th>
+         </tr>
+       </thead>
+
+       <tbody>
+         <tr>
+           <td>#1</td>
+           <td>yes</td>
+           <td>1</td>
+         </tr>
+         <tr>
+           <td>#2</td>
+           <td>yes</td>
+           <td>1</td>
+         </tr>
+       </tbody>
+     </table>
+
+  {{#link-to "index"}}
+  <button class="navbar_search">Close</button>
+  {{/link-to}}
+
+</div>
+
+{{outlet}}

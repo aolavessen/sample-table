@@ -1,0 +1,112 @@
+<body>
+  <div class="boss">
+  <div class="header">
+    <div class="header_navbar">
+      <div class="header_navbar-box">
+
+        <div class="navbar_logo">
+          {{!-- <img class="navbar_logo_img" src="" alt> --}}
+          <h3 class="navbar_logo_text">Code Challenge</h3>
+      </div>
+
+  </div>
+</div>
+
+<div class="title">
+  <h1 class="header_title">VUMC RESEARCH</h1>
+  {{!-- <h5 class="header-sub-title">Code Challenge Fall 2016</h5> --}}
+</div>
+
+</div>
+
+
+<div class="main">
+  <div class="main_left">
+    <h4 class="main_title">Disease States</h4>
+    <div class="navbar_search_about">
+      {{#link-to "index.alcoholism"}}
+      <button class="navbar_search">Alcoholism</button>
+      {{/link-to}}
+    </div>
+    <div class="navbar_search_about">
+      {{#link-to "index.diabetes"}}
+      <button class="navbar_search">Diabetes</button>
+      {{/link-to}}
+    </div>
+    <div class="navbar_search_about">
+      {{#link-to "index.lungcancer"}}
+      <button class="navbar_search">Lung Cancer</button>
+      {{/link-to}}
+    </div>
+    <div class="navbar_search_about">
+      {{#link-to "index.obesity"}}
+      <button class="navbar_search">Obesity</button>
+      {{/link-to}}
+    </div>
+    <div class="navbar_search_about">
+      {{#link-to "index.viralinfection"}}
+      <button class="navbar_search">Viral Infection</button>
+      {{/link-to}}
+    </div>
+</div>
+{{!-- <div class="main_center">
+  <h4 class="main_title">Sources</h4>
+  <div class="navbar_search_about">
+    {{!-- {{#link-to "dashboard.labresult"}} --}}
+    {{!-- <button class="navbar_search">Lab Result</button> --}}
+    {{!-- {{/link-to}} --}}
+  {{!-- </div> --}}
+  {{!-- <div class="navbar_search_about">
+    <button class="navbar_search">Medication</button>
+  </div>
+  <div class="navbar_search_about">
+    <button class="navbar_search">Problem List</button>
+  </div> --}}
+{{!-- </div> --}}
+
+<div class="main_right">
+  {{!-- <h4 class="main_title">Patient Data</h4>
+  <div class="navbar_search_about">
+    {{#link-to "index.pid1"}}
+    <button class="navbar_search">PID 1</button>
+    {{/link-to}}
+  </div>
+  <div class="navbar_search_about">
+    {{#link-to "index.pid2"}}
+    <button class="navbar_search">PID 2</button>
+    {{/link-to}}
+  </div>
+  <div class="navbar_search_about">
+    {{#link-to "index.pid3"}}
+    <button class="navbar_search">PID 3</button>
+    {{/link-to}}
+  </div>
+  <div class="navbar_search_about">
+    {{#link-to "index.pid4"}}
+    <button class="navbar_search">PID 4</button>
+    {{/link-to}}
+  </div>
+  <div class="navbar_search_about">
+    {{#link-to "index.pid5"}}
+    <button class="navbar_search">PID 5</button>
+    {{/link-to}}
+  </div> --}}
+
+
+  {{outlet}}
+</div>
+</div>
+
+<div class="footer">
+  <h1 class="footer_title">Useful Links</h1>
+  <div class="footer_nav">
+    <a href="http://medical-dictionary.thefreedictionary.com/alcoholism" class="footer_nav_text">Alcoholism</a>
+    <a href="http://medical-dictionary.thefreedictionary.com/diabetes" class="footer_nav_text">Diabetes</a>
+    <a href="http://medical-dictionary.thefreedictionary.com/lung+cancer" class="footer_nav_text">Lung Cancer</a>
+    <a href="http://medical-dictionary.thefreedictionary.com/obesity" class="footer_nav_text">Obesity</a>
+    <a href="http://medical-dictionary.thefreedictionary.com/viral+infection" class="footer_nav_text">Viral Infection</a>
+ </div>
+</div>
+
+</div>
+</body>
