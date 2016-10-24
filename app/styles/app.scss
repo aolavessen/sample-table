@@ -17,14 +17,14 @@ body {
 }
 
 
-h6 {
-  color: red;
-}
+// h6 {
+//   color: red;
+// }
 
 .header {
-  background-image: url('https://www4.vanderbilt.edu/graphicstandards/files/athletics/VanCom/VANCOM_02b_873.jpg');
+  background-image: url('http://az589735.vo.msecnd.net/images/profilepics/1022817/203.jpg');
   /*background: #ffff4d;*/
-  background-size: 100% 75%;
+  background-size: 100% 100%;
   background-position: center;
   position: relative;
   width: 100%;
@@ -44,7 +44,7 @@ h6 {
    left: 0;
    bottom: 0;
    right: 0;
-   /*background: rgba(63, 52, 167, 0.4);*/
+  //  background: rgba(63, 52, 167, 0.4);
 
 }
 
@@ -86,6 +86,7 @@ h6 {
 
 .navbar_logo_text {
   color: white;
+  text-shadow: .2rem .2rem black;
   padding-left: 1rem;
   padding-top: 1rem;
   /*padding-bottom: 1rem;*/
@@ -106,11 +107,11 @@ h6 {
 }
 .header_title {
 
-  color: #666600;
+  color: white;
   font-size: 400%;
-  font-weight: normal;
+  font-weight: bolder;
   text-transform: uppercase;
-  text-shadow: .2rem .2rem white;
+  text-shadow: .2rem .2rem black;
   align-self: center;
   padding: 12rem 0rem 0rem;
 }
@@ -137,21 +138,21 @@ h6 {
 
 
 .navbar_search {
-  background: black;
-  color: #fff;
+  background: #666600;
+  color: black;
   font-family: Sans-serif;
-  font-size: 10px;
+  font-size: 13px;
   height: 30px;
-  width: 75px;
+  width: 95px;
   line-height: 30px;
   margin: 5px 5px;
   text-align: center;
-  border: 0;
+  border: .1rem black;
   transition: all 0.3s ease 0s;
 }
 
 button:hover {
-  background: #666600;
+  background: #fff;
 }
 
 .search_icon {
@@ -159,22 +160,28 @@ button:hover {
 }
 
 .main {
+  // background-image: url('https://wp0.its.vanderbilt.edu/french-italian/wp-content/uploads/sites/72/Furman-Hall-650x300.jpg');
+  /*background: #ffff4d;*/
+  // background-size: 100% 100%;
+  // background-position: center;
+  // position: relative;
   width: 100%;
-  max-width: 85%;
+  // max-width: 85%;
   display: flex;
   justify-content: center;
   margin: auto;
-  padding: 2rem 0rem;
-  background-color: white;
+  padding: 2rem 10rem;
+  background-color: black;
 
 }
 
 .main_title {
   color: #666600;
   font-size: 100%;
-  font-weight: normal;
+  font-weight: bolder;
   text-transform: uppercase;
-  /*text-shadow: .2rem .2rem black;*/
+  // text-shadow: .1rem .1rem white;
+  // background-color: #666600;
 }
 
 .main_left {
@@ -182,7 +189,7 @@ button:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-basis: 50%;
+  // flex-basis: 50%;
   /*padding-right: 1rem;*/
 
 }
@@ -236,54 +243,62 @@ button:hover {
   border-left: 1px solid #c9c9c9;
   padding: .5rem;
   color: #c9c9c9;
+  text-decoration: none;
+}
+
+.footer_nav_text:hover {
+  color: red;
 }
 
 .alcoholism_main {
-  border: .1rem solid black;
-  background-color: purple;
+  // width: 50%;
+  color: black;
+  // border: .1rem solid black;
+  background-color: white;
+
 }
 
 .diabetes_main {
   border: .1rem solid black;
-  background-color: purple;
+  background-color: white;
 }
 
 .lungcancer_main {
   border: .1rem solid black;
-  background-color: purple;
+  background-color: white;
 }
 
 .obesity_main {
   border: .1rem solid black;
-  background-color: purple;
+  background-color: white;
 }
 
 .viralinfection_main {
   border: .1rem solid black;
-  background-color: purple;
+  background-color: white;
 }
 
 .pid1_main {
   border: .1rem solid black;
-  background-color: purple;
+  background-color: white;
 }
 
 .pid2_main {
   border: .1rem solid black;
-  background-color: purple;
+  background-color: white;
 }
 
 .pid3_main {
   border: .1rem solid black;
-  background-color: purple;
+  background-color: white;
 }
 
 .pid4_main {
   border: .1rem solid black;
-  background-color: purple;
+  background-color: white;
 }
 
 .pid5_main {
   border: .1rem solid black;
-  background-color: purple;
+  background-color: white;
 }
